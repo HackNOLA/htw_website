@@ -10,7 +10,7 @@ const Hero = () => {
             <div className="pr-lg-5">
               <p className="text-uppercase text-primary font-weight-medium f-14 mb-4">Our mission</p>
               <h1 className="mb-4 font-weight-normal line-height-1_4">Bettering lives through <span className="text-primary font-weight-medium">tech</span></h1>
-              <p className="text-muted mb-4 pb-2">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+              <p className="text-muted mb-4 pb-2">Hack the World is a tech ecosystem, helping thousands of underprivledge people worldwide in building an ecosystem of blockchain enthusiasts. Our ecosystem encompasses our techincal training program, <span className="text-primary font-weight-medium">HackNOLA</span>.</p>
               <a href="#" className="btn btn-warning">
                 Early Access <span className="ml-2 right-icon">&#8594;</span>
               </a>
