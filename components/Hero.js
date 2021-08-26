@@ -8,7 +8,7 @@ const Hero = () => {
         <Row className="align-items-center">
           <Col lg={6}>
             <div className="pr-lg-5">
-              <p className="text-uppercase text-primary font-weight-medium f-14 mb-4">Our mission</p>
+              <p className="text-uppercase text-primary font-weight-medium f-14 mb-4">Our mission</p> 
               <h1 className="mb-4 font-weight-normal line-height-1_4">Bettering lives through <span className="text-primary font-weight-medium">tech</span></h1>
               <p className="text-muted mb-4 pb-2">Hack the World is a tech ecosystem, helping thousands of underprivledge people worldwide in building a community of blockchain enthusiasts. Our ecosystem encompasses our techincal training program, <span className="text-primary font-weight-medium">HackNOLA</span>.</p>
               <a href="#" className="btn btn-warning">
