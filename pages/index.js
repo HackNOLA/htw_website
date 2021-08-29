@@ -5,6 +5,7 @@ import Feature from '../components/Feature';
 import Service from '../components/Service';
 import About from '../components/About';
 import Footer from '../components/Footer';
+import Signup from '../components/Signup';
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <Hero />
       <Feature/>
       <Service />
+      <Signup />
       <About />
       <Footer />
     </Layout>

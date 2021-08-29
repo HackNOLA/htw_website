@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from "reactstrap";
+import { SocialIcon } from 'react-social-icons';
+
 
 const Footer = () => {
   const links = [
@@ -18,7 +20,11 @@ const Footer = () => {
           <Col lg={4}>
               <div className="mb-4">
                 <p className="text-muted mt-4 mb-2"></p>
-                <h6 className="text-muted font-weight-normal">2021 © HacktheWorld, Cooperation</h6>
+                <h6 className="text-muted font-weight-normal"></h6>
+                <SocialIcon network="twitter" url={"https://twitter.com/HacktheWorld13"} bgColor="#20cd5f" style={{margin: 5}}/>
+                <SocialIcon network="linkedin" style={{margin: 5}}/>
+                <SocialIcon network="discord" style={{margin: 5}}/>
+                <SocialIcon network="instagram" style={{margin: 5}}/>
               </div>
           </Col>
           <Col lg={8}>
@@ -39,7 +45,6 @@ const Footer = () => {
               }
               
               <Col md={4}>
-                <h6 className="text-dark mb-3">Our Address</h6>
                 <p className="text-muted f-14"></p>
                 <h6 className="text-muted pb-2">Email: thehacknola@email.com</h6>
                 <ul className="list-unstyled footer-social-list mt-4">
