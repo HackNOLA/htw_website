@@ -62,12 +62,13 @@ const Feature = () => {
         <Row className="justify-content-center">
           <Col lg={6} md={8}>
             <div className="title text-center mb-5">
-              <h3 className="font-weight-normal text-dark"><span className="text-warning">Features</span></h3>
-              <p className="text-muted">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+              <h3 className="font-weight-normal text-dark"><span className="text-warning">Why Blockchain?</span></h3>
+              <p className="text-muted">Blockchain technology is becoming more established is almost every sector of lives from decentralized finance (DeFi), art, media, and digital governance.</p>
+              <p className="text-muted">Although there happen to be an abundance of resources and communities about blockchain tech and cryptocurrencies, marginilized and impoverished people have little to no exposure about the information. <span className="text-primary font-weight-medium">We're here to bridge the gap</span>.</p>
             </div>
           </Col>
         </Row>
-        <FeatureBox features={features} />
+        {/* <FeatureBox features={features} /> */}
       </Container>
     </section>
   );
