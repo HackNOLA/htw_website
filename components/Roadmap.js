@@ -11,14 +11,14 @@ const RoadMap = () => {
 return (
     <section className="section bg-light" id="about">
         <Container>
-
+        <h3 className="font-weight-normal text-dark">Our <span className="text-warning">Roadmap</span></h3>
 <VerticalTimeline>
 <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="September 6, 2021"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
-    <h4 className="vertical-timeline-element-title">Launch our Token on the Fantom network</h4>
+    <h4 className="vertical-timeline-element-title">Launch our Token on the <span className="text-primary font-weight-medium">Fantom</span> network</h4>
     <p>
       We plan to utilize the Famtom network for scalable and secure, low-cost transactions
     </p>
@@ -28,7 +28,7 @@ return (
     date="October 4, 2021 - November 22, 2021"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
-    <h4 className="vertical-timeline-element-title">Launch HackNOLA</h4>
+    <h4 className="vertical-timeline-element-title">Launch <span className="text-primary font-weight-medium">HackNOLA</span></h4>
     <p>
       We are having our first class for our Intro to Software Development course in October, 2021. There are a limited number of seats available for our first cohort; therefore, if you're applicant number is #31 and above, you will be enrolled in our waitlist for our upcoming cohort(s)  
     </p>
@@ -38,7 +38,7 @@ return (
     date="February, 2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
-    <h4 className="vertical-timeline-element-title">Intergrate our IOT Blockchain Development course</h4>
+    <h4 className="vertical-timeline-element-title">Intergrate our <span className="text-primary font-weight-medium">IOT Blockchain Development</span> course</h4>
     <p>
         Our plan is to teach opportunity youth and underserved adults software development skills for agricultural engineering. Our participants will be able to build automated gardening systems to introduce the importance of growing your own food
     </p>
