@@ -7,7 +7,8 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink
+  NavLink,
+  Row
 } from 'reactstrap';
 
 const Header = () => {
@@ -31,8 +32,9 @@ const Header = () => {
     <div className={`header${sticky ? ' sticky' : ''}`}>
       <Navbar light expand="md">
         <Container>
-          <NavbarBrand href="/">
-          <img src="/images/htw_logo_worded.png" alt="" className="img-fluid mx-auto d-block"/>
+          <NavbarBrand className="d-block" href="/">
+          <img src="/images/bot1.png" alt="" className="img-fluid mx-auto d-block"/>
+          <h6>Hack the World</h6>
           </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
