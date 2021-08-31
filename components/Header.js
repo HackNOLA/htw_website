@@ -34,7 +34,7 @@ const Header = () => {
         <Container>
           <NavbarBrand className="d-block" href="/">
           <img src="/images/bot1.png" alt="" className="img-fluid mx-auto d-block"/>
-          <h6>Hack the World</h6>
+          <h6 style={{fontWeight: "bold"}}>Hack the World</h6>
           </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
