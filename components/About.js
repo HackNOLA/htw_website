@@ -23,11 +23,11 @@ const About = () => {
             <Row>
               <Col md={10} style={{padding: 10}}>
                 <h4 className="text-dark font-weight-light f-20 mb-3">Our Vision</h4>
-                <Media body>Hack the World foresees a future where the youth and underserved population have equal opportunity to financial and digital freedom</Media>
+                <Media body>Hack the World envisions a future where the youth and underserved population have equal opportunity to financial and digital freedom</Media>
               </Col>
               <Col md={10} style={{padding: 10}}>
                 <h4 className="text-dark font-weight-light f-20 mb-3">Who we serve</h4>
-                <Media body>As of now, HackNOLA is available for adults with some level of a high school education. We are in the proccess of creating partnerships with local charters to educate high school students in the Louisiana area. If the student body that you intend us to serve is special needs, we limit our partnerships with schools specifically in the New Orleans area to provide our best support.</Media>
+                <Media body>As of now, HackNOLA is available for adults with some level of a high school education. We are in the proccess of creating partnerships with local charters to educate high school students in Louisiana virtually. If the student body that you intend us to serve is special needs, we limit our partnerships with high schools and non-profit organizations specifically in the New Orleans area to provide our best support.</Media>
               </Col>
               <Col md={10} style={{padding: 10}}>
                 <h4 className="text-dark font-weight-light f-20 mb-3">Team</h4>
