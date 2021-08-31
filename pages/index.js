@@ -6,6 +6,7 @@ import Service from '../components/Service';
 import About from '../components/About';
 import Footer from '../components/Footer';
 import Signup from '../components/Signup';
+import RoadMap from '../components/Roadmap'
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <Feature/>
       <Service />
       <Signup />
+      <RoadMap />
       <About />
       <Footer />
     </Layout>
