@@ -20,6 +20,6 @@ export default async function getStaticProps (req, res, next)  {
   })
   // you need to pass in an id, for sum reason. prisma shit
   // console.log(res.l)
-  res.redirect('/info/success')
+  res.redirect('/success/registered')
   // res.json(newApplicant)
 }

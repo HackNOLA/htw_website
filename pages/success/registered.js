@@ -4,9 +4,9 @@ import { Container, Row, Col } from 'reactstrap';
 import Footer from '../../components/Footer';
 
 
-const Success = () => {
+const Registered = () => {
   return (
-    <Layout pageTitle="Hack the World">
+    <Layout pageTitle="Hack the World" id="registered">
       <Header />
       <section className="section position-relative">
       <Container>
@@ -34,4 +34,4 @@ const Success = () => {
   )
 }
 
-export default Success;
+export default Registered;
