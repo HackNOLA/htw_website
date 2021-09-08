@@ -18,7 +18,7 @@ return (
     date="September 6, 2021"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
-    <h4 className="vertical-timeline-element-title">Launch our Token on the <span className="text-primary font-weight-medium">Fantom</span> network</h4>
+    <h4 className="vertical-timeline-element-title">Launch our Token on the <span className="text-primary font-weight-medium">Solana</span> network</h4>
     <p>
       We plan to utilize the Solana network for scalable and secure, low-cost transactions
     </p>
