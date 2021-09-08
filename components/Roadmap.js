@@ -20,7 +20,7 @@ return (
   >
     <h4 className="vertical-timeline-element-title">Launch our Token on the <span className="text-primary font-weight-medium">Fantom</span> network</h4>
     <p>
-      We plan to utilize the Famtom network for scalable and secure, low-cost transactions
+      We plan to utilize the Solana network for scalable and secure, low-cost transactions
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
