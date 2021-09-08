@@ -2,8 +2,12 @@ import next from 'next';
 import React from 'react';
 import { Col, Row, Button, Form, FormGroup, Label, Input, Container } from 'reactstrap';
 import { useRouter } from "next/router";
+import { route } from 'next/dist/next-server/server/router';
 
 const Example = ({ register, setFirstName, setLastName, setEmail, setPhone, setInfo_session}) => {
+
+const router = useRouter();
+
   return (
     <section className="section bg-light" id="sign-up">
         <Container>
@@ -47,7 +51,8 @@ const Example = ({ register, setFirstName, setLastName, setEmail, setPhone, setI
             // type="submit"
             onSubmit={async (e) => {
                 e.preventDefault();
-                const applicant = await fetcher("/api/applicant", {first: firstName, last: lastName, email: email, phone: phone, info_session: info_session});
+                const applicant = await fetcher("/api/applicant", {first: firstName, last: lastName, email: email, phone: phone, info_session: info_session})
+                    .then(router.push("/success/registered"));
                
             }}
             >Sign up</Button>

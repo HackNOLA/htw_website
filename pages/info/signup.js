@@ -17,6 +17,7 @@ const Signup = () => {
   const [phone, setPhone] = useState("");
   const [info_session, setInfo_session] = useState("");
   // const [signee, setSignee] = useState("");
+  // const { data } = useSWR("/api/applicant", getFetcher);
 
   return (
     <Layout pageTitle="Hack the World">

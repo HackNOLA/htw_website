@@ -1,7 +1,7 @@
-import Layout from "../../components/Layout";
-import Header from "../../components/Header";
+import Layout from "../components/Layout";
+import Header from "../components/Header";
 import { Container, Row, Col } from 'reactstrap';
-import Footer from '../../components/Footer';
+import Footer from '../components/Footer';
 
 
 const Registered = () => {
