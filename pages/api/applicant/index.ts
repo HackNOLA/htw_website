@@ -1,4 +1,4 @@
-import prisma from '../../../lib/prismahandler.js';
+import prisma from '../../../lib/prismahandler';
 
 import axios from 'axios'
 
