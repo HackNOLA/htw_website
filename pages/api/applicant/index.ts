@@ -1,6 +1,8 @@
-import prisma from '../../../lib/prismaHandlers.js'
+import { PrismaClient } from "@prisma/client";
+
+const prisma = new PrismaClient();
+
 import axios from 'axios'
-import useSWR from "swr";
 
 // POST /api/user
 // Required fields in body: title, authorEmail
