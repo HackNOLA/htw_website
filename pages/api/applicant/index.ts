@@ -1,4 +1,4 @@
-import prisma from '../../../lib/prismaHandlers'
+import prisma from '../../../lib/prismaHandlers.js'
 import axios from 'axios'
 import useSWR from "swr";
 
