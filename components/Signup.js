@@ -1,5 +1,7 @@
+import next from 'next';
 import React from 'react';
 import { Col, Row, Button, Form, FormGroup, Label, Input, Container } from 'reactstrap';
+import { useRouter } from "next/router";
 
 const Example = ({ register, setFirstName, setLastName, setEmail, setPhone, setInfo_session}) => {
   return (
@@ -46,6 +48,7 @@ const Example = ({ register, setFirstName, setLastName, setEmail, setPhone, setI
             onSubmit={async (e) => {
                 e.preventDefault();
                 const applicant = await fetcher("/api/applicant", {first: firstName, last: lastName, email: email, phone: phone, info_session: info_session});
+               
             }}
             >Sign up</Button>
             </Form>
