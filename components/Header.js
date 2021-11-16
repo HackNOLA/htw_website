@@ -48,9 +48,9 @@ const Header = () => {
               <NavItem>
                 <NavLink href="/info">About</NavLink>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink href="https://hacknola.github.io/metaplex#/">NFT Collection</NavLink>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <NavLink href="/info/signup">Sign up</NavLink>
               </NavItem>

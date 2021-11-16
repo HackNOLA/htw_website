@@ -15,22 +15,32 @@ return (
 <VerticalTimeline>
 <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="September 6, 2021"
+    date="December, 2021"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
     <h4 className="vertical-timeline-element-title">Launch our Token on the <span className="text-primary font-weight-medium">Solana</span> network</h4>
     <p>
-      We plan to utilize the Solana network for scalable and secure, low-cost transactions
+      We plan to utilize the Solana network for our token. We will be launching our token on the Solana network in the near future. Our token will allow us to raise funds for our project. It will also help us to build a community of developers and designers.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="October 4, 2021 - November 22, 2021"
+    date="Decemember, 2022"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+  >
+    <h4 className="vertical-timeline-element-title">Get our token listed on an exchange</h4>
+    <p>
+        A HTW token listing on a major international digital currency exchange usually results in a price boost for the token. This will also help grow the Hack the World community and utility 
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="January 10th, 2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
     <h4 className="vertical-timeline-element-title">Launch <span className="text-primary font-weight-medium">HackNOLA</span></h4>
     <p>
-      We are having our first class for our Intro to Software Development course in October, 2021. There are a limited number of seats available for our first cohort; therefore, if you're applicant number is #31 and above, you will be enrolled in our waitlist for our upcoming cohort(s)  
+      In partnership with <a className="text-primary font-weight-medium" href="https://fhfofgno.org/">Families Helping Familes NOLA</a>, we are having our first class for our Intro to Software Engineering course, specifically for ASD individuals, on January 10th, 2022. There are a limited number of seats available for our first cohort. Applicants after the deadline will be considered for the next cohort in the spring of 2022.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -38,19 +48,9 @@ return (
     date="February, 2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
-    <h4 className="vertical-timeline-element-title">Intergrate our <span className="text-primary font-weight-medium">IOT Blockchain Development</span> course</h4>
+    <h4 className="vertical-timeline-element-title">Intergrate our <span className="text-primary font-weight-medium">Web 3.0</span> course</h4>
     <p>
-        Our plan is to teach opportunity youth and underserved adults software development skills for agricultural engineering. Our participants will be able to build automated gardening systems to introduce the importance of growing your own food
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="Spring, 2022"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-  >
-    <h4 className="vertical-timeline-element-title">Get our token listed on an exchange</h4>
-    <p>
-        A HTW token listing on a major international digital currency exchange usually results in a price boost for the token. This will also help grow the Hack the World community and utility 
+        Our plan is to teach the software development skills necessary to build a decentralized application using the Ethereum blockchain. 
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
