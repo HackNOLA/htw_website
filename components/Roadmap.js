@@ -18,9 +18,9 @@ return (
     date="December, 2021"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
-    <h4 className="vertical-timeline-element-title">Launch our Token on the <span className="text-primary font-weight-medium">Solana</span> network</h4>
+    <h4 className="vertical-timeline-element-title">Launch our Token on the <span className="text-primary font-weight-medium">Harmony</span> network</h4>
     <p>
-      We plan to utilize the Solana network for our token. We will be launching our token on the Solana network in the near future. Our token will allow us to raise funds for our project. It will also help us to build a community of developers and designers.
+      We plan to utilize the Harmony network for our token. We will be launching our token on the Harmony network in the near future. Our token will allow us to raise funds for our project. It will also help us to build a community of developers and designers.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
