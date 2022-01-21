@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from "reactstrap";
-import { SocialIcon } from 'react-social-icons';
 
 
 const Footer = () => {
@@ -21,10 +20,6 @@ const Footer = () => {
               <div className="mb-4">
                 <p className="text-muted mt-4 mb-2"></p>
                 <h6 className="text-muted font-weight-normal"></h6>
-                <SocialIcon network="twitter" url={"https://twitter.com/HacktheWorld13"} bgColor="#20cd5f" style={{margin: 5}}/>
-                <SocialIcon network="linkedin" style={{margin: 5}}/>
-                <SocialIcon network="discord" style={{margin: 5}}/>
-                <SocialIcon network="instagram" style={{margin: 5}}/>
               </div>
           </Col>
           <Col lg={8}>

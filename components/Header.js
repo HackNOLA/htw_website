@@ -10,6 +10,8 @@ import {
   NavLink,
   Row
 } from 'reactstrap';
+import { SocialIcon } from 'react-social-icons';
+
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,6 +43,7 @@ const Header = () => {
               <NavItem>
                 <NavLink href="/">Home</NavLink>
               </NavItem>
+              
               <NavItem>
                 <NavLink href="/#service">Services</NavLink>
               </NavItem>
@@ -51,8 +54,15 @@ const Header = () => {
                 <NavLink href="https://hacknola.github.io/metaplex#/">NFT Collection</NavLink>
               </NavItem> */}
               <NavItem>
+                <NavLink href="/info/signup">HTW Univesity</NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink href="/info/signup">Sign up</NavLink>
               </NavItem>
+              <div style={{paddingLeft: 25}}>
+                <SocialIcon network="twitter" url={"https://twitter.com/HacktheWorld13"} bgColor="#20cd5f" style={{margin: 10}}/>
+                <SocialIcon network="discord" url={"https://discord.gg/GGX5ZkvA4V"} style={{margin: 0}}/>
+              </div>
             </Nav>
           </Collapse>
         </Container>
