@@ -34,10 +34,10 @@ const router = useRouter();
             <FormGroup>
                 <Label for="info_session">Choose an info session</Label>
                 <Input onChange={setInfo_session} type="select" name="info_session" id="info_session">
-                <option>Monday, February 13th 10:00am</option>
-                <option>Monday, February 13th 5:30pm</option>
-                <option>Monday, February 20th 10:00am</option>
-                <option>Monday, February 20th 5:30pm</option>
+                <option>Sunday, February 13th 12:00pm</option>
+                <option>Sunday, February 13th 5:30pm</option>
+                <option>Sunday, February 20th 12:00pm</option>
+                <option>Sunday, February 20th 5:30pm</option>
                 <option>None of these fit my schedule</option>
                 </Input>
             </FormGroup>
