@@ -20,7 +20,7 @@ return (
   >
     <h4 className="vertical-timeline-element-title">Launch our NFT collection on the <span className="text-primary font-weight-medium">Solana</span> network</h4>
     <p>
-      We plan to utilize the <a className="text-primary font-weight-medium" href="https://solana.com/">Solana network</a> for our NFT collection. We will be launching our NFT collection on the Solana network in the near future. The HTW HAckbots will allow us to raise funds for future scholarships, team members, and metaverse game. It will also help us to build a community of developers and blockchain enthusiasts.
+      We plan to utilize the <a className="text-primary font-weight-medium" href="https://solana.com/">Solana network</a> for our NFT collection. We will be launching our NFT collection on the Solana network in the near future. The HTW Hackbots will allow us to raise funds for future scholarships, team members, and metaverse game. It will also help us to build a community of developers and blockchain enthusiasts.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
