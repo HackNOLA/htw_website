@@ -43,7 +43,7 @@ return (
         Our plan is for HackNOLA to teach the software development skills necessary to build a decentralized application using the Ethereum and Solana blockchain. 
     </p>
   </VerticalTimelineElement>
-  <VerticalTimelineElement
+  {/* <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="April, 2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -52,7 +52,7 @@ return (
     <p>
         Amongst our educational projects, we are releasing our first game, <a className="text-primary font-weight-medium" href="https://mylildino-beta.herokuapp.com/">My Little Dino</a>. My Little Dino is a multiplayer, play-to-earn game that will be available on the Solana network.
     </p>
-  </VerticalTimelineElement>
+  </VerticalTimelineElement> */}
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="Summer, 2022"
