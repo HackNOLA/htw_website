@@ -12,50 +12,10 @@ const router = useRouter();
     <section className="section bg-light" id="sign-up">
         <Container>
             <h3 className="font-weight-normal text-dark">Attend <span className="text-primary font-weight-medium">a free info session</span></h3>
-            <Form action="/api/applicant" method="POST">
-            <Row form>
-                <Col md={6}>
-                <FormGroup>
-                <Label for="fist">First Name</Label>
-                <Input onChange={setFirstName} type="text" name="first" id="first" placeholder="" required/>
-            </FormGroup>
-            <FormGroup>
-                <Label for="last">Last Name</Label>
-                <Input onChange={setLastName} type="text" name="last" id="last" placeholder="" required/>
-            </FormGroup>
-            <FormGroup>
-                    <Label for="email">Email</Label>
-                    <Input onChange={setEmail} type="email" name="email" id="email" placeholder="Email address" />
-            </FormGroup>
-            <FormGroup>
-                <Label for="phone">Phone</Label>
-                <Input onChange={setPhone} type="tel" name="phone" id="phone" placeholder=""/>
-            </FormGroup>
-            <FormGroup>
-                <Label for="info_session">Choose an info session</Label>
-                <Input onChange={setInfo_session} type="select" name="info_session" id="info_session">
-                <option>Sunday, February 13th 12:00pm</option>
-                <option>Sunday, February 13th 5:30pm</option>
-                <option>Sunday, February 20th 12:00pm</option>
-                <option>Sunday, February 20th 5:30pm</option>
-                <option>None of these fit my schedule</option>
-                </Input>
-            </FormGroup>
-                </Col>    
-            </Row>
-            <FormGroup check>
-                {/* <Input type="checkbox" name="check" id="exampleCheck"/> */}
-                {/* <Label for="exampleCheck" check></Label> */}
-            </FormGroup>
-            <Button color={"primary"} 
-            // type="submit"
-            onSubmit={async (e) => {
-                e.preventDefault();
-                const applicant = await fetcher("/api/applicant", {first: firstName, last: lastName, email: email, phone: phone, info_session: info_session})
-                    .then(router.push("/success/registered"));
-               
-            }}
-            >Sign up</Button>
+            <Form action="https://calendly.com/hacktheworld/info-session-signup" method="POST">
+            <Button color={"primary"} type="submit">
+                Sign up
+            </Button>
             </Form>
         </Container>
     </section>

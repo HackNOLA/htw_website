@@ -8,6 +8,27 @@ const Team = () => {
       <Media className="mt-1">
         <Col md={10} style={{ padding: 10 }}>
           <Media body>
+              <img
+                width={250}
+                facebook-id="invalidfacebookusername"
+                src="https://avatars.githubusercontent.com/u/33336793?v=4"
+              />
+              <h5 className="text-dark font-weight-light f-20 mb-3">
+                Eric O'Neal
+              </h5>
+              Originally from New Orleans, relocated to Atlanta during Hurricane
+              Katrina, but I am born and raised a NOLA kid. I attended Xavier
+              university of Louisiana and graduated from Operation Spark, a local
+              software development bootcamp. I worked on projects for GE, Revelry
+              Labs, Krit, Tulane University, and Virginia Tech. My main interests revolve around
+              family, tech, and sports. Other than being with friends in family I
+              enjoy most things tech. Video games are a big pass time for me, i
+              enjoy RPG's games where i can be my own character and just explore
+              the world.
+          </Media>
+        </Col>
+        <Col md={10} style={{ padding: 10 }}>
+          <Media body>
             <img
               width={250}
               facebook-id="invalidfacebookusername"
@@ -26,30 +47,6 @@ const Team = () => {
             also enjoy exploring blockchain technology, especially open source.
             Some of my favorite hobbies include spending time with my family and
             making electronic music.
-          </Media>
-        </Col>
-      </Media>
-      <br />
-      <Media>
-        <Col md={10} style={{ padding: 10 }}>
-          <Media body>
-            <img
-              width={250}
-              facebook-id="invalidfacebookusername"
-              src="https://avatars.githubusercontent.com/u/33336793?v=4"
-            />
-            <h5 className="text-dark font-weight-light f-20 mb-3">
-              Eric O'neal
-            </h5>
-            Originally from New Orleans, relocated to Atlanta during Hurricane
-            Katrina, but I am born and raised a NOLA kid. I attended Xavier
-            university of Louisiana and graduated from Operation Spark, a local
-            software development bootcamp. I worked on projects for GE, Revelry
-            Labs, Krit, and Tulane University. My main interests revolve around
-            family, tech, and sports. Other than being with friends in family I
-            enjoy most things tech. Video games are a big pass time for me, i
-            enjoy RPG's games where i can be my own character and just explore
-            the world.
           </Media>
         </Col>
       </Media>
