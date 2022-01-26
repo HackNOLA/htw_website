@@ -15,7 +15,7 @@ return (
 <VerticalTimeline>
 <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="April, 2021"
+    date="April, 2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
     <h4 className="vertical-timeline-element-title">Launch our NFT collection on the <span className="text-primary font-weight-medium">Solana</span> network</h4>
