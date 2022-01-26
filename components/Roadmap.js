@@ -15,7 +15,7 @@ return (
 <VerticalTimeline>
 <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="February, 2021"
+    date="April, 2021"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
     <h4 className="vertical-timeline-element-title">Launch our NFT collection on the <span className="text-primary font-weight-medium">Solana</span> network</h4>
@@ -25,17 +25,17 @@ return (
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="February 2022"
+    date="April 2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
     <h4 className="vertical-timeline-element-title">Launch <span className="text-primary font-weight-medium">HackNOLA</span></h4>
     <p>
-      In partnership with <a className="text-primary font-weight-medium" href="https://fhfofgno.org/">Families Helping Familes NOLA</a>, we are having our first class for our Intro to Software Engineering course, specifically for ASD individuals near the New Orleans area, on February 2022. There are a limited number of seats available for our first cohort. Applicants after the deadline will be considered for the next cohort in the spring of 2022.
+      In partnership with <a className="text-primary font-weight-medium" href="https://fhfofgno.org/">Families Helping Familes NOLA</a>, we are having our first class for our Intro to Software Engineering course, specifically for ASD individuals near the New Orleans area, on April 2022. There are a limited number of seats available for our first cohort. Applicants after the deadline will be considered for the next cohort in the spring of 2022.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="February, 2022"
+    date="April, 2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
     <h4 className="vertical-timeline-element-title">Intergrate our <span className="text-primary font-weight-medium">Web 3.0</span> course</h4>
@@ -45,7 +45,7 @@ return (
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="February, 2022"
+    date="April, 2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
     <h4 className="vertical-timeline-element-title">Launch <span className="text-primary font-weight-medium">My Little Dino</span></h4>
