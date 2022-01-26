@@ -55,7 +55,7 @@ const Footer = () => {
         <Row className="mt-5">
           <Col md={12}>
             <div className="text-center text-muted">
-              <p className="mb-0 f-15">2021 © HackNOLA, LLC. Design by Akintunde Pounds</p>
+              <p className="mb-0 f-15">2021 © Hack the World, LLC. Design by Akintunde Pounds</p>
             </div>
           </Col>
         </Row>
