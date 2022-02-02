@@ -28,7 +28,7 @@ return (
     date="Spring 2022"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
-    <h4 className="vertical-timeline-element-title">Launch <span className="text-primary font-weight-medium">Hack the World</span></h4>
+    <h4 className="vertical-timeline-element-title">Launch <span className="text-primary font-weight-medium">HackNOLA and HTWU</span></h4>
     <p>
       In partnership with <a className="text-primary font-weight-medium" href="https://fhfofgno.org/">Families Helping Familes NOLA</a>, we are having our first class for our Intro to Software Engineering course, specifically for ASD individuals near the New Orleans area, on Spring 2022. There are a limited number of seats available for our first cohort. Applicants after the deadline will be considered for the next cohort in the spring of 2022.
     </p>
