@@ -21,8 +21,8 @@ const Example = ({ register, setFirstName, setLastName, setEmail, setPhone, setI
           <Col lg={6} md={8}>
             <div className="title text-center mb-5">
               <h3 className="font-weight-normal text-dark"><span className="text-warning">Our Partners</span></h3>
-              <p className="text-muted"><span className="text-primary font-weight-medium"></span>We partner businesses that align
-                with our mission to create digital products that are impactful and provide <span className="text-primary font-weight-medium">digital equity</span>. We also partner with high schools
+              <p className="text-muted"><span className="text-primary font-weight-medium"></span>We partner with businesses that align
+                with our mission to create software products that are impactful and provide <span className="text-primary font-weight-medium">digital equity</span>. We also partner with high schools
                 in the local <span className="text-primary font-weight-medium">New Orleans area</span> to teach students the basics
                 of <span className="text-primary font-weight-medium">Web3</span> and computer programming skills</p>
             </div>
