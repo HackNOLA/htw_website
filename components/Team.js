@@ -5,7 +5,7 @@ import Avatar from "react-avatar";
 const Team = () => {
   return (
     <div>
-      <Media className="mt-1">
+      <Media style={{flexDirection: "column"}} className="mt-1">
         <Col md={10} style={{ padding: 10 }}>
           <Media body>
               <img
@@ -14,7 +14,7 @@ const Team = () => {
                 src="https://avatars.githubusercontent.com/u/33336793?v=4"
               />
               <h5 className="text-dark font-weight-light f-20 mb-3">
-                Eric O'Neal
+                CEO, Eric O'Neal
               </h5>
               Originally from New Orleans, relocated to Atlanta during Hurricane
               Katrina, but I am born and raised a NOLA kid. I attended Xavier
@@ -30,12 +30,13 @@ const Team = () => {
         <Col md={10} style={{ padding: 10 }}>
           <Media body>
             <img
-              width={250}
+              width={370}
+              height={250}
               facebook-id="invalidfacebookusername"
-              src="https://avatars.githubusercontent.com/u/42776703?s=400&u=3108ae3a708ef0219e72e93e9f5788ed3813b8d4&v=4"
+              src="https://res.cloudinary.com/https-pilot-tune-herokuapp-com/image/upload/v1661276786/1_mceia5.jpg"
             />
             <h5 className="text-dark font-weight-light f-20 mb-3">
-              Akintunde Pounds
+              CTO, Akintunde Pounds
             </h5>
             Originally from the Midwest, I moved to New Orleans when I was a
             child. As a kid, although I wanted to make videos games, I believed
@@ -47,6 +48,20 @@ const Team = () => {
             also enjoy exploring blockchain technology, especially open source.
             Some of my favorite hobbies include spending time with my family and
             making electronic music.
+          </Media>
+        </Col>
+        <Col md={10} style={{ padding: 10 }}>
+          <Media body>
+            <img
+              width={300}
+              height={400}
+              facebook-id="invalidfacebookusername"
+              src="https://res.cloudinary.com/https-pilot-tune-herokuapp-com/image/upload/v1661276947/portraitparty006_294_cic3j2.jpg"
+            />
+            <h5 className="text-dark font-weight-light f-20 mb-3">
+              CMO, Osarumwense Adun
+            </h5>
+            My personal mission is to transform New Orleans into a regional innovation engine fueled by art and culture, using emerging technology. I am currently leading several ventures to make this happen, media, entertainment, education, professional networking events, conferences, fashion, meta-verse art, blockchain architecture research and historic preservation. I have 6 years research experience and 3 years research experience in the WEB3.0.
           </Media>
         </Col>
       </Media>

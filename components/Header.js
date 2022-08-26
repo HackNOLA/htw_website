@@ -54,7 +54,7 @@ const Header = () => {
                 <NavLink href="https://Hack the World.github.io/metaplex#/">NFT Collection</NavLink>
               </NavItem> */}
               <NavItem>
-                <NavLink href="https://calendly.com/hacktheworld">Sign up</NavLink>
+                <NavLink href="/#partners">Our Partners</NavLink>
               </NavItem>
               <div style={{paddingLeft: 25}}>
                 <SocialIcon network="twitter" url={"https://twitter.com/HacktheWorld13"} bgColor="#20cd5f" style={{margin: 10}}/>

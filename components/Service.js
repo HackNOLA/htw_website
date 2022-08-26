@@ -3,8 +3,8 @@ import { Container, Row, Col } from "reactstrap";
 
 const Service = () => {
   const services = [
-    { title : "Our NFT Collection", desc : "HTW HackBots on Solana are our official NFT collection. HackBots will allow NFT holders to enroll into HTW University or contribute to the development of our Web3 curriculum." },
-    { title : "Blockchain Education", desc : 'HTML, CSS, Javascript, Git, Solidity, Rust' },
+    { title : "Software as a Solution", desc : "We partner with companies and communities that align our mission to create digital products to better our communities." },
+    { title : "HTW University", desc : 'HTML, CSS, Javascript, Git, Solidity, IPFS' },
     { title : "Web3 Accelerator", desc : "Assisting our partners create or utilize Web3 apps, NFT collections, and crypto-tokens" },
   ]
   
@@ -15,7 +15,7 @@ const Service = () => {
           <Col lg={6} md={8}>
             <div className="title text-center mb-5">
               <h3 className="font-weight-normal text-dark"><span className="text-warning">Services</span></h3>
-              <p className="text-muted"><span className="text-primary font-weight-medium"></span>Our technical training programs, HackNOLA and HTW Univeristy, teach the necessary skills to construct dapps (decentralized applications) and software development fundamentals. <span className="text-primary font-weight-medium">No prior experiance required.</span></p>
+              <p className="text-muted"><span className="text-primary font-weight-medium"></span>Our technical training program, HTW Univeristy, teach the necessary skills to construct dapps (decentralized applications) and software development fundamentals to high school students in the local New Orleans area. There's <span className="text-primary font-weight-medium">no prior experiance required.</span></p>
             </div>
           </Col>
         </Row>
