@@ -1,9 +1,7 @@
 import { useState } from "react";
 import Layout from "../../components/Layout";
 import Header from "../../components/Header";
-import SignupContent from '../../components/Signup';
 import Footer from '../../components/Footer';
-import useSWR from "swr";
 import axios from "axios";
 
 const fetcher = (url, body) => axios.post(url,JSON.stringify(body)).then((res) => res.data);
@@ -23,13 +21,6 @@ const Signup = () => {
     <Layout pageTitle="Hack the World">
       <Header />
       {typeof signee === "object" ?  <h4>Thank you for signing up!</h4> : null}
-        <SignupContent 
-          setFirstName={setFirstName}
-          setLastName={setLastName}
-          setEmail={setEmail}
-          setPhone={setPhone}
-          setInfo_session={setInfo_session}
-          />
         <Footer />
     </Layout>
   )
