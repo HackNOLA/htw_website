@@ -58,7 +58,7 @@ const Header = () => {
               </NavItem>
               <div style={{paddingLeft: 25}}>
                 <SocialIcon network="twitter" url={"https://twitter.com/HacktheWorld13"} bgColor="#20cd5f" style={{margin: 10}}/>
-                <SocialIcon network="discord" url={"https://discord.gg/GGX5ZkvA4V"} style={{margin: 0}}/>
+                <SocialIcon network="discord" url={"https://discord.gg/XGrQSsAaTP"} style={{margin: 0}}/>
                 <SocialIcon network="youtube" url={"https://www.youtube.com/channel/UCVG8khtu92iVOnJGCFjPnxA"} style={{margin: 10}}/>
                 <SocialIcon network="linkedin" url={"https://www.linkedin.com/company/hacktheworld/"} style={{margin: 0}}/>
               </div>
