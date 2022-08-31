@@ -30,11 +30,6 @@ const Example = ({ register, setFirstName, setLastName, setEmail, setPhone, setI
         </Row>
         <Carousel infiniteLoop={true} autoPlay={true} showArrows={true} >
           <div>
-            <Avatar round={true} size="200" src="https://res.cloudinary.com/https-pilot-tune-herokuapp-com/image/upload/v1661524219/JAMMICON_xhxmha.jpg" />
-            <p>JammAround</p>
-            <br />
-          </div>
-          <div>
             <Avatar round={true} size="200" src="https://iglfoundation.org/wp-content/uploads/2020/09/static1.squarespace.png" />
             <p>IGL</p>
           </div>
